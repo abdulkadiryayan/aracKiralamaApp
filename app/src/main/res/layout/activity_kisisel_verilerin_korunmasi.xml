@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".kisiselVerilerinKorunmasi">
+
+    <LinearLayout
+        android:id="@+id/linearLayout3"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Kişisel Verilerin Korunması" />
+
+        <TextView
+            android:id="@+id/textView17"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="YAYAN Bilişim Anonim Şirketi (“YAYAN” veya “Şirket”) olarak kişisel verilerinizin güvenliği hususuna azami hassasiyet göstermekteyiz. Bu bilinçle, Şirket’in etkileşim içerisine olduğu gerçek kişilere ait kişisel verilerin 6698 sayılı Kişisel Verilerin Korunması Kanunu (“Kanun”)’na, Kanun’a bağlı yürürlüğe koyulan ve koyulacak ikincil düzenlemelere (yönetmelik, tebliğ, genelge) ve bağlayıcı nitelikteki Kişisel Verileri Koruma Kurul’u tarafından alınmış ve alınacak kararlara uygun olarak işlenerek, muhafaza edilmesine büyük önem atfetmekteyiz. Bu sorumluluğumuzun tam idraki ile Kanun’da tanımlı şekli ile “Veri Sorumlusu” sıfatıyla, kişisel verilerinizi hesap açma işlemleri kapsamında aşağıda izah edildiği surette ve mevzuat tarafından emredilen sınırlar çerçevesinde işlemekteyiz." />
+
+        <TextView
+            android:id="@+id/textView18"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1. Veri Sorumlusuna İlişkin Bilgiler Kanun uyarınca İstanbul Ticaret Sicil Müdürlüğü’nde 8601-5 sicil numarasıyla kayıtlı, Ünalan Mahallesi Libadiye Caddesi Emaar Square F Blok No: 82 F İç Kapı No: 101 Üsküdar / İstanbul adresinde mukim YAYAN Bilişim Anonim Şirketi Veri Sorumlusudur. " />
+
+        <TextView
+            android:id="@+id/textView19"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="2. Kişisel Verilerin İşlenme Amaçları Kişisel verileriniz Şirket tarafından; Şirket’in yürüttüğü ticari faaliyetlerin mevzuata ve Şirket politikalarına uygun olarak yerine getirilmesi için Şirket’in iş birimleri tarafından gerekli çalışmaların yapılması ve bu doğrultuda faaliyetlerin yürütülmesi, Şirket’in kısa, orta ve uzun vadede ticari politikalarının tespit edilmesi, planlanması ve uygulanması, Şirket’in insan kaynakları faaliyetlerinin tasarlanması ve yürütülmesi, Şirket’in ilgili mevzuattan doğan yükümlülüklerin yerine getirilmesi, müşteri ilişkileri ve kurumsal iletişim süreçlerinin yönetilmesi ve Şirket’in iş ilişkisi içerisinde olduğu gerçek ve tüzel kişilerin ticari ve hukuki emniyetinin sağlanması amaçlarıyla Kanun’da belirtilen sınırlar çerçevesinde hukuka, dürüstlük kurallarına uygun ve işbu amaçlarla her daim bağlantılı, sınırlı ve ölçülü şekilde işlenmektedir. " />
+
+        <TextView
+            android:id="@+id/textView20"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="3. Kişisel Verilerin Aktarılması Kişisel verileriniz yukarıda belirtilen amaçlar dahilinde, Kanun’un 8. ve 9. maddesinde belirtilen şartlara uygun olarak başta kanunen yetkili kamu kuruluşlarına, adli ve idari makamlara, sair mevzuatta izin verilen özel hukuk tüzel ve gerçek kişilerine, Şirket’i denetime yetkili kurum ve kuruluşlara, ödemelerin ve mali yükümlülüklerin yerine getirilmesi adına anlaşmalı olunan ödeme kuruluşlarına, Şirket’in faaliyetlerinin yürütülmesi ve geliştirilmesi için hizmet alınan veya işbirliği içerisinde olunan iş ortaklarına ve sadece gerektiğinde Şirket’in tedarikçilerine Kanun’da belirtilen veri güvenliği tedbirleri alınmak suretiyle aktarılmaktadır. " />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

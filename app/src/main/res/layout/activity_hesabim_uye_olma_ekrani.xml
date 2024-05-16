@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HesabimUyeOlmaEkrani">
+
+    <EditText
+        android:id="@+id/BDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="dogum tarihi"
+        android:inputType="date"
+        app:layout_constraintBottom_toTopOf="@+id/email"
+        app:layout_constraintStart_toStartOf="@+id/tcno"
+        app:layout_constraintTop_toBottomOf="@+id/nickname" />
+
+    <EditText
+        android:id="@+id/isim"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="27dp"
+        android:ems="10"
+        android:hint="isim soy isim"
+        android:inputType="text"
+        app:layout_constraintBottom_toTopOf="@+id/sifre"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView3" />
+
+    <EditText
+        android:id="@+id/nickname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="44dp"
+        android:ems="10"
+        android:hint="kullanıcı adı"
+        android:inputType="text"
+        app:layout_constraintBottom_toTopOf="@+id/BDate"
+        app:layout_constraintStart_toStartOf="@+id/sifre"
+        app:layout_constraintTop_toBottomOf="@+id/sifre" />
+
+    <EditText
+        android:id="@+id/sifre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="sifrenizi "
+        android:inputType="numberPassword"
+        app:layout_constraintBottom_toTopOf="@+id/nickname"
+        app:layout_constraintStart_toStartOf="@+id/isim"
+        app:layout_constraintTop_toBottomOf="@+id/isim" />
+
+    <EditText
+        android:id="@+id/phoneN"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="33dp"
+        android:ems="10"
+        android:hint="telefon numarası "
+        android:inputType="phone"
+        app:layout_constraintBottom_toTopOf="@+id/uyeol1"
+        app:layout_constraintStart_toStartOf="@+id/email"
+        app:layout_constraintTop_toBottomOf="@+id/email" />
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="e posta adresi "
+        android:inputType="textEmailAddress"
+        app:layout_constraintBottom_toTopOf="@+id/phoneN"
+        app:layout_constraintStart_toStartOf="@+id/BDate"
+        app:layout_constraintTop_toBottomOf="@+id/BDate" />
+
+    <EditText
+        android:id="@+id/tcno"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="TC numarası"
+        android:inputType="text"
+        app:layout_constraintStart_toStartOf="@+id/nickname"
+        app:layout_constraintTop_toBottomOf="@+id/nickname" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="196dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="96dp"
+        app:layout_constraintBottom_toTopOf="@+id/isim"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/yayan1" />
+
+    <Button
+        android:id="@+id/uyeol1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="101dp"
+        android:layout_marginBottom="61dp"
+        android:text="Üye Ol"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/phoneN" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

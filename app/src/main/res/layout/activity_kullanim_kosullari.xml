@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".KullanimKosullari">
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginStart="10dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="410dp"
+            android:layout_height="60dp"
+            android:text="kullanım koşulları" />
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Genel Bilgiler Nelerdir?" />
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Bu sitenin bütün hakları YAYAN Bilişim Anonim Şirketi’ne aittir ve bu kurum tarafından işletimi yapılmaktadır. Kullanım koşulları belirtilirken bahsi geçen “Biz” ve “Bizi” kelimeleri ile kast edilen YAYAN Bilişim Anonim Şirketi; “siz” ve “sizi” ifadeleriyle kast edilen ise uygulamamızı ziyaret eden değerli müşterilerimizdir. Kullanım koşullarının uygulamamızı kullanmadan önce ziyaret edilmesi ve gözden geçirilmesi gerekmektedir.  " />
+
+        <TextView
+            android:id="@+id/textView12"
+            android:layout_width="match_parent"
+            android:layout_height="33dp"
+            android:text="İptal ve İade Şartları" />
+
+        <TextView
+            android:id="@+id/textView13"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="YAYAN, rezervasyon sürecinde müşterilerine her açıdan destek olmayı ve hayatlarını kolaylaştırmayı amaçlamaktadır. Bu sebeple, rezervasyon iptal ve iade durumunda, çağrı merkezi çalışanlarımız rezervasyonunuzun iptalini veya iadesini sağlamak için aracı olduğu kurumla sizin adınıza iletişime geçer. YAYAN yaptığınız ödemeyi doğrudan firmalara ilettiği için, yapılan işlemin iptal ve iade durumlarında hiçbir sorumluluk üstlenmemektedir. İşlemleriniz rezervasyonu yaptığınız firmanın koşulları gözetilerek yapılmaktadır. Bu koşullarla ilgili detaylı bilgiyi bu sayfada bulabilirsiniz. Firmaların iptal ve iade işlemleri konusunda yaptığı değişiklik ve güncellemelerin ilgili firmanın uygulamadan takip edilmesi gerekmektedir. YAYAN, firmaların önceden bildirmeksizin yaptığı değişiklik ve güncellemelerden sorumlu değildir." />
+
+        <TextView
+            android:id="@+id/textView14"
+            android:layout_width="match_parent"
+            android:layout_height="33dp"
+            android:text="Nasıl Rezervasyon Yapılır?" />
+
+        <TextView
+            android:id="@+id/textView15"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Uygulamamızda araç kiralamak için bir rezervasyon yaptığınızda, bu rezervasyon size kiralama yapacağınız aracın kesin teminini sağlayan bir anlaşma özelliği taşımaz. Rezervasyonunuz onaylanmış veya beklemede olsa bile aracın kesin temini konusunda garanti vermez. Araç kiralama anlaşmasını, depozito ödemesini ve diğer bütün işlemleri kiraladığınız firma ile birlikte aracı teslim alırken yaparsınız. YAYAN size en uygun fiyatı en kolay şekilde rezerve edip, kredi kartı veya banka kartınızla internet üzerinden ödeme yapma kolaylığı sağlayan bir aracı kurumdur." />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

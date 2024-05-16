@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HesabimGirisEkrani">
+
+    <EditText
+        android:id="@+id/username"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginBottom="11dp"
+        android:ems="10"
+        android:hint="e posta adresi"
+        android:inputType="text"
+        android:text=""
+        android:textSize="18dp"
+        app:layout_constraintBottom_toTopOf="@+id/sifre"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2" />
+
+    <EditText
+        android:id="@+id/sifre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginBottom="72dp"
+        android:ems="10"
+        android:hint="sifrenizi girin"
+        android:inputType="numberPassword"
+        app:layout_constraintBottom_toTopOf="@+id/girisyap"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/username" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="48dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="114dp"
+        app:layout_constraintBottom_toTopOf="@+id/username"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/yayan1" />
+
+    <Button
+        android:id="@+id/uyeol"
+        android:layout_width="120dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginBottom="77dp"
+        android:backgroundTint="#119716"
+        android:text="Üye Ol"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/girisyap" />
+
+    <Button
+        android:id="@+id/girisyap"
+        android:layout_width="120dp"
+        android:layout_height="50dp"
+        android:backgroundTint="#119716"
+        android:text="Giriş Yap"
+        app:layout_constraintBottom_toTopOf="@+id/uyeol"
+        app:layout_constraintEnd_toEndOf="@+id/uyeol"
+        app:layout_constraintStart_toStartOf="@+id/uyeol"
+        app:layout_constraintTop_toBottomOf="@+id/sifre" />
+</androidx.constraintlayout.widget.ConstraintLayout>

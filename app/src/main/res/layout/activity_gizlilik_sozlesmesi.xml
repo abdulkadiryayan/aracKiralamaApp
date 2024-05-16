@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".gizlilikSozlesmesi">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/gizlilikk"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Gizlilik Sözleşmesi" />
+
+        <TextView
+            android:id="@+id/textView22"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Gizliliğin kullanıcılarımız için çok önemli olduğunun bilincindeyiz,bu nedenle site kullanıcılarımızın gizliliği bizim için de çok önemlidir.Gizlilik Politikası, YAYAN mobil sitesini kullanırken paylaştığınız verilerin ne amaçlarla kullanılabileceği,bu bilgilerin kimlerle paylaşılabileceği ve gizliliğinizi korumak amacıyla uyguladığımız güvenlik işlemleri hakkında gerekli bilgileri sağlamayı amaçlamaktadır.  YAYAN internet sitesini, mobil uygulamalarını ve diğer iletişim kanallarını kullanmakla, Gizlilik Politikasında belirtilen hususları kabul etmiş ve burada belirtilen hususlarda YAYAN'a izin vermiş oluyorsunuz.  YAYAN Gizlilik Politikası ile ilgili her türlü uyuşmazlık Türkiye Cumhuriyeti yasalarına tabidir ve uyuşmazlıkların çözümünde İstanbul mahkemeleri ve icra daireleri yetkilidir. " />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
